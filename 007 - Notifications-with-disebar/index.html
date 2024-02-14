@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<link
+			href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+			rel="stylesheet" />
+		<title>Notifications with sidebar</title>
+	</head>
+	<body>
+		<div class="frame">
+			<div class="panel">
+				<div class="header">
+					<div class="menu-icon">
+						<div class="dash dash-top"></div>
+						<div class="dash dash-bottom"></div>
+						<div class="circle"></div>
+					</div>
+					<span class="title">Notifications</span>
+					<input type="text" class="search-input" placeholder="Search..." />
+					<div class="search-icon bx bx-search-alt-2"></div>
+				</div>
+
+				<div class="notifications clearfix">
+					<div class="line"></div>
+					<div class="notification">
+						<div class="circle"></div>
+						<span class="time">9:24 AM</span>
+						<p><b>John Walker</b>psted a photo on your wall.</p>
+					</div>
+					<div class="notification">
+						<div class="circle"></div>
+						<span class="time">8:19 AM</span>
+						<p><b>Alice Parker</b> commented your last post.</p>
+					</div>
+					<div class="notification">
+						<div class="circle"></div>
+						<span class="time">Yesterday</span>
+						<p><b>Luke Wayne</b> added you as friend.</p>
+					</div>
+				</div>
+			</div>
+			<div class="menu">
+				<ul>
+					<li><span class="bx bxs-dashboard"></span>Dashboard</li>
+					<li><span class="bx bxs-user"></span>Profile</li>
+					<li><span class="bx bxs-notification"></span>Notications</li>
+					<li><span class="bx bxs-chat"></span>Messages</li>
+					<li><span class="bx bxs-cog"></span>Settings</li>
+				</ul>
+			</div>
+		</div>
+		<script src="main.js"></script>
+	</body>
+</html>
